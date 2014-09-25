@@ -98,7 +98,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="77" width="288" height="61"/>
+                                    <rect key="frame" x="16" y="92" width="288" height="46"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u6t-Pk-f7a">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="72" width="288" height="21"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8ZK-lN-nY6">
@@ -115,6 +124,7 @@
                                 <exclude reference="slY-JR-pej"/>
                                 <exclude reference="PtX-P0-hmK"/>
                                 <exclude reference="qgA-ew-SKK"/>
+                                <exclude reference="u6t-Pk-f7a"/>
                                 <exclude reference="8ZK-lN-nY6"/>
                             </mask>
                         </variation>
@@ -124,6 +134,7 @@
                                 <include reference="slY-JR-pej"/>
                                 <include reference="PtX-P0-hmK"/>
                                 <include reference="qgA-ew-SKK"/>
+                                <include reference="u6t-Pk-f7a"/>
                                 <include reference="8ZK-lN-nY6"/>
                             </mask>
                         </variation>
@@ -135,6 +146,7 @@
                         <outlet property="enterNameTextField" destination="PRy-QQ-DQa" id="BHY-bL-r4z"/>
                         <outlet property="mailButton" destination="PtX-P0-hmK" id="VAn-VH-c2q"/>
                         <outlet property="messageLabel" destination="qgA-ew-SKK" id="ueH-kI-2B1"/>
+                        <outlet property="nameLabel" destination="u6t-Pk-f7a" id="O0v-yM-gbn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lvz-V7-ZBS" userLabel="First Responder" sceneMemberID="firstResponder"/>
